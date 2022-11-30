@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advanced Search</title>
+    <style>
+            body{
+                text-align:center
+            }
+            .words{
+                width:560px;
+                height:30px;
+                margin:auto;
+                border-radius:3px;
+            }
+            .inst{
+            }
+            .click{
+                width:180px;
+                height:40px;
+                margin:auto;
+                border-radius:5px;
+                background-color:#8181f7;
+                color:#ffffff;
+            }
+    </style>
+</head>
+    <body>
+        <div style="position: absolute; top: 10px; right: 10px;">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div style="position: absolute; top: 35px; right: 10px;">
+            <a href="imageSearch.html">Google Image Search</a>
+        </div>
+        <b style="font-size:30px;
+           position:absolute;
+           left:10%;
+           top:10%;
+           color:red;">Find pages with...</b>
+        <b style="font-size:25px;
+           position:absolute;
+           left:8%;
+           top:25%;
+           color:blue">all these words</b>
+        <b style="font-size:25px;
+           position:absolute;
+           left:8%;
+           top:35%;
+           color:blue">these exact word or phrase</b>
+        <b style="font-size:25px;
+           position:absolute;
+           left:8%;
+           top:45%;
+           color:blue">any of these words</b>
+        <b style="font-size:25px;
+           position:absolute;
+           left:8%;
+           top:55%;
+           color:blue">none of these words</b>
+        <form action="https://google.com/search">
+            <input class="words" style="position:absolute;
+                left:0;
+                right:0;
+                top:25%;" type="text" name="as_q">
+            <input class="words" style="position:absolute;
+                left:0;
+                right:0;
+                top:35%;" type="text" name="as_epq">
+            <input class="words" style="position:absolute;
+                left:0;
+                right:0;
+                top:45%;" type="text" name="as_oq">
+            <input class="words" style="position:absolute;
+                left:0;
+                right:0;
+                top:55%;" type="text" name="as_eq">
+            <input class="click" style="position:absolute;
+                left:0;
+                right:0;
+                top:65%;" type="submit" value="Google Advanced Search">
+        </form>
+    </body>
+</html>

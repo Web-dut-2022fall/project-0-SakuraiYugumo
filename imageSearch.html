@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Search</title>
+    <style>
+            body{
+                text-align:center
+            }
+            .words{
+                width:450px;
+                height:50px;
+                margin:auto;
+                border-radius:5px;
+                position:absolute;
+                left:0;
+                right:0;
+                top:35%;
+            }
+            .click{
+                width:143px;
+                height:40px;
+                margin:auto;
+                border-radius:5px;
+                background-color:#8181f7;
+                color:#ffffff;
+            }
+        </style>
+</head>
+    <body>
+        <div style="position: absolute; top: 10px; right: 10px;">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div style="position: absolute; top: 35px; right: 10px;">
+            <a href="advancedSearch.html">Google Advanced Search</a>
+        </div>
+        <form action="https://www.google.com/search">
+            <input class="words" type="text" name="q">
+            <input type="hidden" name="tbm" value="isch">
+            <input style="position:absolute;
+                left:45%;
+                top:43%;" class="click" type="submit" value="Google Image Search">
+        </form>
+    </body>
+</html>
